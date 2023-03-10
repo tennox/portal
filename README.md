@@ -39,6 +39,11 @@ On Arch Linux (AUR):
 yay -S portal-bin
 ```
 
+Or using [nix](https://nixos.org/) (currently only on unstable channel):
+```bash
+nix profile install nixpkgs#portal
+```
+
 ## How it works
 
 ### Sending files and folders
