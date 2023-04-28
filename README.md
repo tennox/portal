@@ -39,9 +39,10 @@ On Arch Linux (AUR):
 yay -S portal-bin
 ```
 
-Or using [nix](https://nixos.org/) (currently only on unstable channel):
+Or using [nix](https://nixos.org/) (on [unstable channel](https://nixos.wiki/wiki/Nix_channels), or in the next release after 22.11):
 ```bash
-nix profile install nixpkgs#portal
+$ nix shell nixpkgs#portal # test once
+$ nix profile install nixpkgs#portal # install for your user
 ```
 
 ## How it works
